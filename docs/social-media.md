@@ -23,10 +23,11 @@ social-media
 
 ## Expected data parameters (optional)
 
-* `type`: Type of social-media profile
-    * `legitimate`
-    * `fan-page`
-    * `fake`
+* `data`: Specific data for social-media profiles
+    * `type`: Type of social-media profile
+        * `legitimate`
+        * `fan-page`
+        * `fake`
 * `description`: Free text describing the request 
 * `resources[]`: add extra ressources to the request
     * `type`: Resource's mime-type
@@ -35,7 +36,9 @@ social-media
 
 ``` json
 {
-    "type": "type",                  // Type of social-media profile
+    "data": {                        // Specific data for social-media profiles
+        "type": "type",              // Type of social-media profile
+    },
     "image": "",                     // IPFS url of the image
     "description": "<description>",  // Free text describing the request 
     "resources": [
