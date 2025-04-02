@@ -38,10 +38,10 @@ markdown_extensions:
 # Page tree
 nav:
   - About: index.md
+  - Cryptocurrency: crypto.md
+  - NFTs: nft.md
   - Social Media Profiles: social-media.md
   - Webpage: webpage.md
-  - NFTs: nft.md
-  - Cryptocurrency: crypto.md
 
 extra:
   generator: false
