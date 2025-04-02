@@ -1,0 +1,56 @@
+# General information
+site_name: Wakweli - Certification Frameworks
+site_url: https://frameworks.wakweli.com
+site_description: Certification Frameworks for the Wakweli Protocol
+site_author: Wakweli Foundation
+copyright: (c) Wakweli Foundation 2025
+
+# Theme
+theme:
+  name: material
+  logo: assets/favicon.svg
+  favicon: assets/favicon.svg
+  features:
+    - navigation.instant
+    - navigation.footer
+  font:
+    text: Montserrat Light
+  palette: 
+    - scheme: slate
+      primary: black
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: indigo
+      accent: green
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+# Extensions
+markdown_extensions:
+  - attr_list
+
+# Page tree
+nav:
+  - About: index.md
+  - Social Media Profiles: social-media.md
+  - Webpage: webpage.md
+  - NFTs: nft.md
+  - Cryptocurrency: crypto.md
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/wakwelichain
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/wakweli
+    - icon: fontawesome/brands/discord
+      link: https://discord.wakweli.com
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/+J7yjH5SE8E42ZWM8
