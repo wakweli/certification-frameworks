@@ -37,7 +37,7 @@ social-media
 ``` json
 {
     "data": {                        // Specific data for social-media profiles
-        "type": "type",              // Type of social-media profile
+        "type": "type"               // Type of social-media profile
     },
     "image": "",                     // IPFS url of the image
     "description": "<description>",  // Free text describing the request 
